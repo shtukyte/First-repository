@@ -2,8 +2,8 @@ a:hover {
     font-weight: bold;
 }
 ul > li {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 10px;
     border: 1px solid blue;
     margin: 10px;
     padding: 10px;
@@ -11,4 +11,8 @@ ul > li {
 li > a {
     color: blue;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
