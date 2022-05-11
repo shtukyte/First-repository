@@ -1,6 +1,8 @@
 a{
     text-decoration: none;
     display: block;
+    top: 50%;
+    
     
 }
 
@@ -10,11 +12,12 @@ ul {
 
 ul > li {
     width: 50px;
-    height: 10px;
+    height: 5px;
     margin: 5px;
     padding: 10px;
     border: 1px solid black;
     float: left;
+    
     
 }
 
