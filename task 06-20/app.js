@@ -38,18 +38,17 @@ function showSlides() {
 let form = document.querySelector('form');
 let firstName = document.querySelector('#fName');
 let lastName = document.querySelector('#lName');
-let phoneNumber = document.querySelector('#phoneNumber');
 let emailAdress = document.querySelector('#emailAdress');
 let confirmMessage = 'Form submited successfully';
-let failMessage = 'Form submited successfully';
+let failMessage = 'Fill all fields';
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   if (firstName.value == '' || lastName.value == '' || phoneNumber.value == '' || emailAdress.value == '') {
-      alert ('Fill all fields ');
+      alert (failMessage);
   } else {
-      alert ('Form submit succesfully');
+      alert (confirmMessage);
  
   }
 });
