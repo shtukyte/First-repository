@@ -48,17 +48,10 @@ function subFormChecker() {
             alert('Please fill all fields!');
             return false;
         }
-    if (true) {    
-    let msg = document.querySelector('#message');
-    msg.textContext = message;
-    msg.style.paddingBottom = '50px'
-    msg.scrollIntoView();
+
+
+
     }
-}    
-
-
-
-
 
 
 
