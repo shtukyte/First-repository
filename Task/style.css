@@ -1,0 +1,22 @@
+body {
+  background: rgb(255, 231, 231);
+}
+
+.clock {
+  position: relative;
+  color: #000063;
+  font-size: 100px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  text-align: center;
+  top: 35%;
+ }
+.mySlides{
+  width: 100%;
+  max-height: 400px;
+}
+#message {
+  font-size: larger;
+  color: green;
+  padding-left: 20px;
+}
